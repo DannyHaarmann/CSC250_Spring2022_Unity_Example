@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class playerScript : MonoBehaviour
 {
     private Player thePlayer = new Player("Mike");
     private Rigidbody rb;
     public float speed = 20f;
     private int count = 0;
+    public GameObject player;
+    private int destroyCount = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -23,19 +26,35 @@ public class playerScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag.Equals("enemy"))
+        if (collision.gameObject.tag.Equals("enemy"))
         {
-            Destroy(CORE.getRoom());
+
+            Destroy(CORE.destroyRoom());
+            CORE.setDestroyCount(destroyCount);
+            destroyCount++;
             count++;
-            if(count == 3)
+            if (count == 14)
             {
                 this.thePlayer.addKill();
                 print("Kill Count: " + this.thePlayer.getKillCount());
             }
         }
+        if (collision.gameObject.tag.Equals("player"))
+        {
+            //Destroy(this.gameObject.tag.Equals("enemy"));
+            count++;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            Debug.Log("I would have been des");
+            Destroy(player);
+        }
     }
 
-    
+
     // Update is called once per frame
     void Update()
     {

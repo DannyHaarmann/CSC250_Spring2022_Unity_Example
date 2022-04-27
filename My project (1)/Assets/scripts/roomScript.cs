@@ -12,7 +12,8 @@ public class roomScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print("Room Entered: " + this.gameObject.ToString());
+        //print("Room Entered: " + this.gameObject.ToString());
+        
     }
 
     // Update is called once per frame

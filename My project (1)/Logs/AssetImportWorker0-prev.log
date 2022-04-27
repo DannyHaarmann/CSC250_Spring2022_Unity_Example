@@ -1,1435 +1,1752 @@
-Unity Editor version:    2020.3.33f1 (915a7af8b0d5)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.3.1 (Build 21E258)
-Darwin version:          21.4.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        65536 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/2020.3.33f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)
+D:/Repos/CSC250_Spring2022_Unity_Example/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50095
-Successfully changed project path to: /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)
-/Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)
+50234
+Successfully changed project path to: D:/Repos/CSC250_Spring2022_Unity_Example/My project (1)
+D:/Repos/CSC250_Spring2022_Unity_Example/My project (1)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
-[Subsystems] Discovering subsystems at path /Applications/2020.3.33f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Assets
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Repos/CSC250_Spring2022_Unity_Example/My project (1)/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-13 09:30:53.728 Unity[4985:59828] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2022-04-13 09:30:53.728 Unity[4985:59828] Metal devices available: 2
-2022-04-13 09:30:53.728 Unity[4985:59828] 0: AMD Radeon Pro 5500M (high power)
-2022-04-13 09:30:53.728 Unity[4985:59828] 1: Intel(R) UHD Graphics 630 (low power)
-2022-04-13 09:30:53.728 Unity[4985:59828] Using device AMD Radeon Pro 5500M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   
+    VRAM:     8041 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = '/Applications/2020.3.33f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/2020.3.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/2020.3.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56985
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/2020.3.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000373 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 28.91 ms, found 2 plugins.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001833 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 23.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
+- Completed reload, in  0.407 seconds
 Domain Reload Profiling:
-	ReloadAssembly (588ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (407ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (472ms)
+		EndReloadAssembly (317ms)
 			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (107ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (169ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (110ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000825 seconds.
+Registered in 0.001343 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Repos\CSC250_Spring2022_Unity_Example\My project (1)\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.994 seconds
+- Completed reload, in  0.611 seconds
 Domain Reload Profiling:
-	ReloadAssembly (994ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (612ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (819ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (478ms)
 			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (299ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.005268 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.004046 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/2020.3.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Initializing Unity extensions:
-2022-04-13 09:30:57.542 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e3cc40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-04-13 09:30:57.545 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e2c770 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.0 MB.
-System memory in use after: 181.2 MB.
+System memory in use before: 70.1 MB.
+System memory in use after: 70.1 MB.
 
-Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 2.939857 ms (FindLiveObjects: 0.106083 ms CreateObjectMapping: 0.036251 ms MarkObjects: 2.106675 ms  DeleteObjects: 0.690309 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 1.974700 ms (FindLiveObjects: 0.109800 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.778400 ms  DeleteObjects: 0.043200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Decrepit Dungeon LITE
-  artifactKey: Guid(49a817a2b7a524af1bd91d16ed22462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decrepit Dungeon LITE using Guid(49a817a2b7a524af1bd91d16ed22462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb7ceaa1c7ddd092f766ec77c29c9bd') in 0.003148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.792024 seconds.
-  path: Assets/cemetery halloween set
-  artifactKey: Guid(60eda93c7a71444f68e603125729cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cemetery halloween set using Guid(60eda93c7a71444f68e603125729cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ab3c1a56a440ac9dc3816f146d0a42') in 0.000945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.912656 seconds.
-  path: Assets/cemetery halloween set/Demo
-  artifactKey: Guid(03ad16a30810e7c49bb697a22c3631ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cemetery halloween set/Demo using Guid(03ad16a30810e7c49bb697a22c3631ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b783b035877ea8cba3c94984338af4') in 0.000965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.561770 seconds.
-  path: Assets/cemetery halloween set/Demo/sample_scene.unity
-  artifactKey: Guid(9ada07f73fd6cce47834106888ee8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cemetery halloween set/Demo/sample_scene.unity using Guid(9ada07f73fd6cce47834106888ee8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac27eb83bd04d5644822c0e193b6547') in 0.000835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.501976 seconds.
-  path: Assets/cemetery halloween set/Demo/sample_scene2.unity
-  artifactKey: Guid(73c22073a418e4040bd7da09943b0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cemetery halloween set/Demo/sample_scene2.unity using Guid(73c22073a418e4040bd7da09943b0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c99dbd7e16501cb92f412c4aed3c28b') in 0.000966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.048717 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce659680ab15c144cef1e12887fd125') in 0.001016 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000992 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:39:26.828 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e5d810 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1013ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (851ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.8 MB.
-System memory in use after: 180.0 MB.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_05.prefab
+  artifactKey: Guid(b097be0cecf330f4187d6b0ab1e6c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_05.prefab using Guid(b097be0cecf330f4187d6b0ab1e6c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ec28b22952224df257e547a8bdbb28') in 0.149709 seconds 
+  Import took 0.152851 seconds .
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1999.
-Total: 2.362028 ms (FindLiveObjects: 0.129612 ms CreateObjectMapping: 0.044116 ms MarkObjects: 2.172974 ms  DeleteObjects: 0.014474 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000965 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:43:10.870 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e5e8b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1021ms)
-		BeginReloadAssembly (95ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (319ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.0 MB.
-System memory in use after: 180.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2002.
-Total: 2.539959 ms (FindLiveObjects: 0.106633 ms CreateObjectMapping: 0.040445 ms MarkObjects: 2.376458 ms  DeleteObjects: 0.015758 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001165 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:44:45.140 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e576b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1079ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (900ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.2 MB.
-System memory in use after: 180.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2005.
-Total: 2.541938 ms (FindLiveObjects: 0.106475 ms CreateObjectMapping: 0.039227 ms MarkObjects: 2.375162 ms  DeleteObjects: 0.020320 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 788.570187 seconds.
-  path: Assets/Mini Legion Footman PBR HP Polyart
-  artifactKey: Guid(988571ccba580410991eb4f4f035be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini Legion Footman PBR HP Polyart using Guid(988571ccba580410991eb4f4f035be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f27affefb5d1e37b2d03a2fcfd3f34') in 0.003602 seconds 
+  Time since last request: 0.000155 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_01.prefab
+  artifactKey: Guid(f9ea014fae4957045bd4f86a1d3745cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_01.prefab using Guid(f9ea014fae4957045bd4f86a1d3745cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b69477db47ed027c70e402a3a8ec0b4') in 0.023278 seconds 
+  Import took 0.026018 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 2.966063 seconds.
-  path: Assets/Mini Legion Footman PBR HP Polyart/Prefabs
-  artifactKey: Guid(4d43378fa8cc84a4ca4e9b147d0ff7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini Legion Footman PBR HP Polyart/Prefabs using Guid(4d43378fa8cc84a4ca4e9b147d0ff7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917be3685a80dca1a8c6dbf2696ca0c6') in 0.000970 seconds 
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_07.prefab
+  artifactKey: Guid(fd62f710cb420f9449701ff6c2dfd551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_07.prefab using Guid(fd62f710cb420f9449701ff6c2dfd551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9131e235a7e5ce0a52ad41d00f260102') in 0.175329 seconds 
+  Import took 0.178069 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 2.269576 seconds.
-  path: Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPolyart.prefab
-  artifactKey: Guid(44e54165d41e34c41ba73a629630ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPolyart.prefab using Guid(44e54165d41e34c41ba73a629630ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76316645f164b751240a42f5057f7b9c') in 1.375315 seconds 
+  Time since last request: 0.000149 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_bush_01.prefab
+  artifactKey: Guid(68cb22bbbf0ded641b55e220c7f92882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_bush_01.prefab using Guid(68cb22bbbf0ded641b55e220c7f92882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620270b422506206b272f1eb8eb4768f') in 0.017942 seconds 
+  Import took 0.020445 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPBR.prefab
-  artifactKey: Guid(705458a9eac3ae740932e6aa33f3ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPBR.prefab using Guid(705458a9eac3ae740932e6aa33f3ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58de9703dcac4eca242f8a4bcaad7c') in 0.220254 seconds 
+  Time since last request: 0.000131 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_03.prefab
+  artifactKey: Guid(2c1222dd739b8eb40947ce53577830c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_03.prefab using Guid(2c1222dd739b8eb40947ce53577830c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df55f3c0ab9fcaa32b0889bb35573b9b') in 0.020014 seconds 
+  Import took 0.022635 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.252278 seconds.
+  Time since last request: 0.000146 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_13.prefab
+  artifactKey: Guid(78c298906118d0a438c60c993a8acf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_13.prefab using Guid(78c298906118d0a438c60c993a8acf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab505cda18aeb1df368013d74e5f4d7') in 0.017895 seconds 
+  Import took 0.020587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_tile_05.prefab
+  artifactKey: Guid(f64b4ed013d2e564f87e392262c02174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_tile_05.prefab using Guid(f64b4ed013d2e564f87e392262c02174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee199b5219b2b3e1b1f48ef40319a9ec') in 0.018811 seconds 
+  Import took 0.021547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_bush_02.prefab
+  artifactKey: Guid(a79d62f8aeb96404d940c6dd804f190c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_bush_02.prefab using Guid(a79d62f8aeb96404d940c6dd804f190c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0ad073a1cdb59468492d7d9a7d8dee') in 0.019197 seconds 
+  Import took 0.022016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_08.prefab
+  artifactKey: Guid(e48f1ed1f1f94d942839979257ab8f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_08.prefab using Guid(e48f1ed1f1f94d942839979257ab8f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5a1cdede669423fa0c5c9722631900') in 0.019139 seconds 
+  Import took 0.021776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_pillar_03.prefab
+  artifactKey: Guid(84c97e6bbccab5e42acdd4c55910148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_pillar_03.prefab using Guid(84c97e6bbccab5e42acdd4c55910148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8929766623654e633221dff20f4b6709') in 0.018130 seconds 
+  Import took 0.020990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_03.prefab
+  artifactKey: Guid(2788b8c246efe2649911841920cfd809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_03.prefab using Guid(2788b8c246efe2649911841920cfd809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcd1deb7b2faa8c5e82521dcdc704a5') in 0.018214 seconds 
+  Import took 0.020984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_02.prefab
+  artifactKey: Guid(e64b86d8d22a03844a23b030a9530f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_02.prefab using Guid(e64b86d8d22a03844a23b030a9530f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94feb011416a971f05f455439c9fab5') in 0.018633 seconds 
+  Import took 0.021304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_03.prefab
+  artifactKey: Guid(a95df487d3499b644a1e9571f055f92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_03.prefab using Guid(a95df487d3499b644a1e9571f055f92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e1973e612fd5292189d15a6eccaebd') in 0.036344 seconds 
+  Import took 0.039019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_05.prefab
+  artifactKey: Guid(fa8968ed07575a942b6d553ee9b45c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_05.prefab using Guid(fa8968ed07575a942b6d553ee9b45c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89523be3e1c1bf1997151ec685427705') in 0.018805 seconds 
+  Import took 0.021415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_04.prefab
+  artifactKey: Guid(f502ed750a15b694f98ade602e76c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_04.prefab using Guid(f502ed750a15b694f98ade602e76c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385bfa8956e2ff585681c82920d22bdc') in 0.017624 seconds 
+  Import took 0.020514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_05.prefab
+  artifactKey: Guid(3e095df96b0ce844eb36f6e1daff0764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_05.prefab using Guid(3e095df96b0ce844eb36f6e1daff0764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16349f34106f22330cbdd87117bb572') in 0.018176 seconds 
+  Import took 0.020835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_07.prefab
+  artifactKey: Guid(f438c31727b4a714fbf9c09f133dcf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_07.prefab using Guid(f438c31727b4a714fbf9c09f133dcf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3a6bbf6cf8f75570d35244e57ea8d9') in 0.017554 seconds 
+  Import took 0.020190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_10.prefab
+  artifactKey: Guid(d3bd997e128c44941b87aabf13f6866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_10.prefab using Guid(d3bd997e128c44941b87aabf13f6866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83daa3e0d23ba902a41da87e9867bdec') in 0.017668 seconds 
+  Import took 0.020292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
   path: Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanHP.prefab
   artifactKey: Guid(272ec112bddec644a8af6599107e74f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanHP.prefab using Guid(272ec112bddec644a8af6599107e74f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6572959f769666c34f5705c8a91be686') in 0.322596 seconds 
+Start importing Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanHP.prefab using Guid(272ec112bddec644a8af6599107e74f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d511b3a45a3f49a6e6c03f2f8b9f49') in 0.166977 seconds 
+  Import took 0.169245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_04.prefab
+  artifactKey: Guid(b17c8758517d6ef43882eb1f0880a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_04.prefab using Guid(b17c8758517d6ef43882eb1f0880a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f87e7938a1d9ac2e7aabfad3794bbe') in 0.021055 seconds 
+  Import took 0.023916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_05.prefab
+  artifactKey: Guid(6ec12ce176abe70468dd369344d5062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_05.prefab using Guid(6ec12ce176abe70468dd369344d5062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285fd1328986c9003a1589ffe23a2425') in 0.018855 seconds 
+  Import took 0.021830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_tile_04.prefab
+  artifactKey: Guid(5cea5509bde1805459b97d4a7857aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_tile_04.prefab using Guid(5cea5509bde1805459b97d4a7857aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e68b41f4e7c2ab921ab95042d640cf') in 0.019429 seconds 
+  Import took 0.022226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_06.prefab
+  artifactKey: Guid(9c1cf8ffa21925241a6a8bd1ffe00d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_06.prefab using Guid(9c1cf8ffa21925241a6a8bd1ffe00d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8c12abb47fcbce04b330f5291702b4') in 0.019781 seconds 
+  Import took 0.022827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_03.prefab
+  artifactKey: Guid(9e9d1287873c3c940a4598792f058c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_03.prefab using Guid(9e9d1287873c3c940a4598792f058c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b29311561e097057b47b8cc2e9f1bf') in 0.018129 seconds 
+  Import took 0.020788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_01.prefab
+  artifactKey: Guid(9e18d1460d69de341b221e656258c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_01.prefab using Guid(9e18d1460d69de341b221e656258c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0246bc2b693bcb9c474c054f1062b207') in 0.021179 seconds 
+  Import took 0.023895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/gate_02.prefab
+  artifactKey: Guid(46e9fb9271c7bc44fbdfa65c78027571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/gate_02.prefab using Guid(46e9fb9271c7bc44fbdfa65c78027571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e59d00d9a64d8081945a26415a6436') in 0.019739 seconds 
+  Import took 0.022652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPBR.prefab
+  artifactKey: Guid(705458a9eac3ae740932e6aa33f3ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPBR.prefab using Guid(705458a9eac3ae740932e6aa33f3ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01399eb7ac060b3079225f30f3f5cd36') in 0.163501 seconds 
+  Import took 0.165980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_04.prefab
+  artifactKey: Guid(63b99b61a29306c4a9ccec358c10201d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_04.prefab using Guid(63b99b61a29306c4a9ccec358c10201d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f6c98eecc651b474f592769a703a75') in 0.018631 seconds 
+  Import took 0.021392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_05.prefab
+  artifactKey: Guid(5f53b4e330d232643aae1c3acd464283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_05.prefab using Guid(5f53b4e330d232643aae1c3acd464283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8a88dcb4186b03d1c793dae788826') in 0.018014 seconds 
+  Import took 0.020670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_tomb.prefab
+  artifactKey: Guid(b3f1fbf83525753448ce81e345b1d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_tomb.prefab using Guid(b3f1fbf83525753448ce81e345b1d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0f5f91068a2e30dc33dc6415b30081') in 0.018766 seconds 
+  Import took 0.021554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_08.prefab
+  artifactKey: Guid(8956cfc30b1ac1243afc21417a8ab218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_08.prefab using Guid(8956cfc30b1ac1243afc21417a8ab218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3c6b06045667dca7fea82500218a69') in 0.018909 seconds 
+  Import took 0.021510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_04.prefab
+  artifactKey: Guid(f277c56b5c09a6d4bb0ca3949477bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_04.prefab using Guid(f277c56b5c09a6d4bb0ca3949477bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebaa3baa428df899e31f6566bf7c646') in 0.017542 seconds 
+  Import took 0.020210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_10.prefab
+  artifactKey: Guid(042986cebc0860848a49b95d417bc331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_10.prefab using Guid(042986cebc0860848a49b95d417bc331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99be58b8ce35d0d5124b5ff8087f0404') in 0.019590 seconds 
+  Import took 0.022257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_07.prefab
+  artifactKey: Guid(b77a64372b566af408dd4c284e167e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_07.prefab using Guid(b77a64372b566af408dd4c284e167e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b115091b750612bb73d1a59ab4e56a') in 0.018297 seconds 
+  Import took 0.021176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_01.prefab
+  artifactKey: Guid(5698f742ca2502047b86ffde9337a99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_01.prefab using Guid(5698f742ca2502047b86ffde9337a99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a710c4d3bc0e223182bbc75e004176c5') in 0.020166 seconds 
+  Import took 0.023005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_02.prefab
+  artifactKey: Guid(a13886ca046b2a84897aa1abe21a85d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_02.prefab using Guid(a13886ca046b2a84897aa1abe21a85d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4e6352c8656687f550619a67f9aac7') in 0.019290 seconds 
+  Import took 0.021954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_01.prefab
+  artifactKey: Guid(a5bf6d625adc50048825d29a1aa4fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_01.prefab using Guid(a5bf6d625adc50048825d29a1aa4fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6db422ac4942d98a495ab06f3f23685') in 0.018044 seconds 
+  Import took 0.021356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_05.prefab
+  artifactKey: Guid(6c3a8709738562e449b3dd58f4a3ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_05.prefab using Guid(6c3a8709738562e449b3dd58f4a3ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2693be6fca55b0f6f40a3f57ff1feb') in 0.019622 seconds 
+  Import took 0.022378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_12.prefab
+  artifactKey: Guid(46ea2e07e9a361842a19fc7b0157924d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_12.prefab using Guid(46ea2e07e9a361842a19fc7b0157924d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05edbdecb39a148c04f529ec51c1aef') in 0.018112 seconds 
+  Import took 0.020922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPolyart.prefab
+  artifactKey: Guid(44e54165d41e34c41ba73a629630ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Footman PBR HP Polyart/Prefabs/FootmanPolyart.prefab using Guid(44e54165d41e34c41ba73a629630ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971cc3a0da02ae71b073f4a1c84c0772') in 0.020079 seconds 
+  Import took 0.022207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_08.prefab
+  artifactKey: Guid(8cbaaa1c70aa83240a3aa22dc354de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_08.prefab using Guid(8cbaaa1c70aa83240a3aa22dc354de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986e97b20d350bab8eaa8ecef5eb3728') in 0.017715 seconds 
+  Import took 0.020430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_tile_01.prefab
+  artifactKey: Guid(06aeb7e39519e2e4c92d3c1ed2d4a011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_tile_01.prefab using Guid(06aeb7e39519e2e4c92d3c1ed2d4a011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c322e492e174bb4b7bdcc5e51d54f') in 0.022849 seconds 
+  Import took 0.025614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_08.prefab
+  artifactKey: Guid(b46a4e02162cad641a26a12b751b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_08.prefab using Guid(b46a4e02162cad641a26a12b751b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881b06a016af1148779ab8a63f5e6383') in 0.020526 seconds 
+  Import took 0.023081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_04.prefab
+  artifactKey: Guid(784ccbabfee88b643ac3e8b6a8da2b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_04.prefab using Guid(784ccbabfee88b643ac3e8b6a8da2b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc8d810ca65e36d9026bd320c93747c') in 0.023015 seconds 
+  Import took 0.025713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_02.prefab
+  artifactKey: Guid(79dcb31d20593b34494c43b5f46881ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_02.prefab using Guid(79dcb31d20593b34494c43b5f46881ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24feb7517da920cc44a07e94a3a819e2') in 0.020612 seconds 
+  Import took 0.023322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_05.prefab
+  artifactKey: Guid(842e2e77ac4011443816deca8e45400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_05.prefab using Guid(842e2e77ac4011443816deca8e45400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82017cb99894b8e63ea4a9c8c05b6a82') in 0.018185 seconds 
+  Import took 0.020870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_02.prefab
+  artifactKey: Guid(05022407ca78f8849974110182512f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_02.prefab using Guid(05022407ca78f8849974110182512f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67be4bcc70273837d05b76e8139517bc') in 0.017746 seconds 
+  Import took 0.020370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_01.prefab
+  artifactKey: Guid(cd558c52cdfae0e4c8d0c527eacae507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_01.prefab using Guid(cd558c52cdfae0e4c8d0c527eacae507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f0964a2b229cf55d585c92ec23ea2b') in 0.020826 seconds 
+  Import took 0.023761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_02.prefab
+  artifactKey: Guid(841bec98178bd664f93ab096859d2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_02.prefab using Guid(841bec98178bd664f93ab096859d2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e75064e280651801b4211d80f91a65') in 0.018756 seconds 
+  Import took 0.021392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_04.prefab
+  artifactKey: Guid(8c14411d5cfda9b448e072f093b0a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_04.prefab using Guid(8c14411d5cfda9b448e072f093b0a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b26da96ea84e675bdd2c4cc287a872a') in 0.018913 seconds 
+  Import took 0.021764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_11.prefab
+  artifactKey: Guid(bbe6bb10f105a5e45a1419591e310972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_11.prefab using Guid(bbe6bb10f105a5e45a1419591e310972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f5d2d55ec597282ccdf53e8ce0cd5c') in 0.017973 seconds 
+  Import took 0.020830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_dead_tree_01.prefab
+  artifactKey: Guid(722a52c7ec5f59b498093c79916f5e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_dead_tree_01.prefab using Guid(722a52c7ec5f59b498093c79916f5e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47a0195e9f26b414f9c87707c1065e7') in 0.020342 seconds 
+  Import took 0.023022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_02.prefab
+  artifactKey: Guid(8ed0dac8bc1ff2a42817e12be50c6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_02.prefab using Guid(8ed0dac8bc1ff2a42817e12be50c6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc7cbb858a92280ce0ea5aa2ba16f75') in 0.020924 seconds 
+  Import took 0.023704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_11.prefab
+  artifactKey: Guid(74f2b4b37e1b67b45b2790ad7f5a79fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_11.prefab using Guid(74f2b4b37e1b67b45b2790ad7f5a79fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4319fdb72edd94fa53a31c0701370f') in 0.017832 seconds 
+  Import took 0.020639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_09.prefab
+  artifactKey: Guid(56b7a5f4c37cf434d85c8f39888e5726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_09.prefab using Guid(56b7a5f4c37cf434d85c8f39888e5726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e048a93d13dc6732fecdb4c6c16482') in 0.018276 seconds 
+  Import took 0.020785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_09.prefab
+  artifactKey: Guid(4bb34b5505e1b954baa757e70caf5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_09.prefab using Guid(4bb34b5505e1b954baa757e70caf5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d3f04ebaadc93356ff871280367a46') in 0.018282 seconds 
+  Import took 0.021079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_01.prefab
+  artifactKey: Guid(5ad48cb888c70244fa7f061de398fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_01.prefab using Guid(5ad48cb888c70244fa7f061de398fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a23e2795eb2228d5b25b51a0e629584') in 0.017792 seconds 
+  Import took 0.020331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_07.prefab
+  artifactKey: Guid(39f4bfe2822687240b47fec90e78667c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_07.prefab using Guid(39f4bfe2822687240b47fec90e78667c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b0aa1b48943d8a16bae73641080838') in 0.021245 seconds 
+  Import took 0.024142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_09.prefab
+  artifactKey: Guid(39161d04e7c5ccd46a3548ed5eecd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_09.prefab using Guid(39161d04e7c5ccd46a3548ed5eecd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886caeb2a12229265f59e09623c96379') in 0.019124 seconds 
+  Import took 0.022050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_pillar_02.prefab
+  artifactKey: Guid(3844633e2e6ce974085f08dc008e90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_pillar_02.prefab using Guid(3844633e2e6ce974085f08dc008e90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154d1e44b870f6880d0cfaead4cbd5ff') in 0.019348 seconds 
+  Import took 0.022492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/cemetery halloween set/Prefab/gate_02.prefab
+  artifactKey: Guid(38475bb0fdc87a540b4d31ca85de30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gate_02.prefab using Guid(38475bb0fdc87a540b4d31ca85de30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cf47a3e36f3f143038b24a3d83744a') in 0.021416 seconds 
+  Import took 0.024344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_03.prefab
+  artifactKey: Guid(cba33deba0888a246a88c500ec7d715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_03.prefab using Guid(cba33deba0888a246a88c500ec7d715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bf30a968038ecc4287f36b1c3f8855') in 0.019719 seconds 
+  Import took 0.022762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_tile_02.prefab
+  artifactKey: Guid(beacccdb742459a47a9a0f2a10892f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_tile_02.prefab using Guid(beacccdb742459a47a9a0f2a10892f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81379c5cc031f2d1652718b524f479ad') in 0.018811 seconds 
+  Import took 0.022095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_04.prefab
+  artifactKey: Guid(62e329b5256f3c640978abaeb8caf972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_04.prefab using Guid(62e329b5256f3c640978abaeb8caf972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a482fdc1d5c84d4040abaf3f5b84beed') in 0.021789 seconds 
+  Import took 0.024317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_01.prefab
+  artifactKey: Guid(4a7bdb1844d70e74cb49786452e74f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_01.prefab using Guid(4a7bdb1844d70e74cb49786452e74f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edcc2cba9aa10ee72057baa1af714ff') in 0.019861 seconds 
+  Import took 0.022566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_07.prefab
+  artifactKey: Guid(2832f6ea6d115e640a7b83f2b97eb0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_07.prefab using Guid(2832f6ea6d115e640a7b83f2b97eb0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4086ed34a0eb06e2136064a4c63b9e9e') in 0.031138 seconds 
+  Import took 0.034160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_07.prefab
+  artifactKey: Guid(41fbb42f4592992418d60cb719f30196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_07.prefab using Guid(41fbb42f4592992418d60cb719f30196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a1092a5c1fc7a868d841c7d7c4edc7') in 0.021028 seconds 
+  Import took 0.023588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_02.prefab
+  artifactKey: Guid(e1102108be00d934dbf5da6be787ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_02.prefab using Guid(e1102108be00d934dbf5da6be787ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f0f3735b8df1f3a1288b2cc6495ab1') in 0.019894 seconds 
+  Import took 0.022571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/prefab
+  artifactKey: Guid(2582dc57999ae430bb1cc134275f146f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab using Guid(2582dc57999ae430bb1cc134275f146f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b7a5ca335be9267dde9d24d4f78f50') in 0.003145 seconds 
+  Import took 0.004812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_04.prefab
+  artifactKey: Guid(1a039573d41de564c82233cf91d21eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_04.prefab using Guid(1a039573d41de564c82233cf91d21eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929fee65eebe9baa7553f1c0373c9d26') in 0.020703 seconds 
+  Import took 0.023247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/cemetery halloween set/Prefab/gate_01.prefab
+  artifactKey: Guid(e5e8b8e20dd6b6b49bc061bb9814a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gate_01.prefab using Guid(e5e8b8e20dd6b6b49bc061bb9814a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d41a670e50e58284ad6103500842b1') in 0.020725 seconds 
+  Import took 0.023449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_01.prefab
+  artifactKey: Guid(2a678318534a74249b489e2e2173fa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_01.prefab using Guid(2a678318534a74249b489e2e2173fa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90186df6c1e8f3064591a104e095e72f') in 0.020284 seconds 
+  Import took 0.022865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_04.prefab
+  artifactKey: Guid(462caf5e9b6e21d47a0fd752618407ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_04.prefab using Guid(462caf5e9b6e21d47a0fd752618407ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8557aa9c9ef1dd93dc21404b7be43c08') in 0.020764 seconds 
+  Import took 0.023405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_03.prefab
+  artifactKey: Guid(7d253fcaea3215044a13b7b91c113421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_03.prefab using Guid(7d253fcaea3215044a13b7b91c113421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94014fa8108cec8602485bad7b5329ce') in 0.020031 seconds 
+  Import took 0.022873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_06.prefab
+  artifactKey: Guid(35232e74afe4ef345b30a4e45ed153fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_06.prefab using Guid(35232e74afe4ef345b30a4e45ed153fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c87c79dc02a855f43a631c74feefac') in 0.020550 seconds 
+  Import took 0.023081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_05.prefab
+  artifactKey: Guid(7a15f40c24c0d3c418c7a40fcfe69512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_05.prefab using Guid(7a15f40c24c0d3c418c7a40fcfe69512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bfc62736b8140a4d84d9d10ad64ae2') in 0.023344 seconds 
+  Import took 0.025996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_01.prefab
+  artifactKey: Guid(3d30d76bf390fc742b8fdd356d040839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_01.prefab using Guid(3d30d76bf390fc742b8fdd356d040839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7231813a4437c3e182a4665403f5fed7') in 0.020536 seconds 
+  Import took 0.023293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_03.prefab
+  artifactKey: Guid(1a935fa61d7ee07459af217cce0bb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_03.prefab using Guid(1a935fa61d7ee07459af217cce0bb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92722200b857252081cfcd01603e8817') in 0.019817 seconds 
+  Import took 0.022692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_05.prefab
+  artifactKey: Guid(dcd6cfd28ad49ab4796c6b6eab560a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_05.prefab using Guid(dcd6cfd28ad49ab4796c6b6eab560a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee349cc7d102bc4568aea213c4f834fd') in 0.022735 seconds 
+  Import took 0.025399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_05.prefab
+  artifactKey: Guid(af50065cf67981e4aa640f559cdba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_05.prefab using Guid(af50065cf67981e4aa640f559cdba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9ee687d0eaac5bc3ffee1f0e956588') in 0.020490 seconds 
+  Import took 0.023335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_tile_03.prefab
+  artifactKey: Guid(b7efced809eecb647824f360edb01784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_tile_03.prefab using Guid(b7efced809eecb647824f360edb01784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd96ce7c4fe427246b7ca31d1d95d83d') in 0.019987 seconds 
+  Import took 0.022725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_04.prefab
+  artifactKey: Guid(17f938bd0b741b648bc90b68ab21d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_04.prefab using Guid(17f938bd0b741b648bc90b68ab21d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b34244f409b62a98a33dafd43b44e89') in 0.020210 seconds 
+  Import took 0.023558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_10.prefab
+  artifactKey: Guid(ddcbd36aced5ba4438c06c370af10e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_10.prefab using Guid(ddcbd36aced5ba4438c06c370af10e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8499de924b5a13f574f0fd353012a93') in 0.021386 seconds 
+  Import took 0.024217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_bush_03.prefab
+  artifactKey: Guid(855a67a22b5e3c64bb7bc6ba64263f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_bush_03.prefab using Guid(855a67a22b5e3c64bb7bc6ba64263f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137f4682ece359e011c85119afe54014') in 0.020338 seconds 
+  Import took 0.022959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/cemetery halloween set/Prefab/bush_03.prefab
+  artifactKey: Guid(37898355f3308664e8a88f210fe2ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/bush_03.prefab using Guid(37898355f3308664e8a88f210fe2ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552c22341ab5d81926102fde594fda6b') in 0.020291 seconds 
+  Import took 0.022981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_03.prefab
+  artifactKey: Guid(aed5aa50d2da06a4d989ad965417c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_03.prefab using Guid(aed5aa50d2da06a4d989ad965417c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca1a1862327a46cffefc61c0b689ce7') in 0.020541 seconds 
+  Import took 0.023380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_09.prefab
+  artifactKey: Guid(11f511437cd4ee34d9d3cf2a7c83cff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_09.prefab using Guid(11f511437cd4ee34d9d3cf2a7c83cff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdf8c2c376aa21888cca3be978214c6') in 0.020499 seconds 
+  Import took 0.023210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_05.prefab
+  artifactKey: Guid(8cf9151acef622348b6bbfeb6cf00296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_05.prefab using Guid(8cf9151acef622348b6bbfeb6cf00296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8ca17bb73b25e5bfcb919c6723bf0f') in 0.020005 seconds 
+  Import took 0.022830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_04.prefab
+  artifactKey: Guid(ac7fa82395434b144af5d06b06264ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_04.prefab using Guid(ac7fa82395434b144af5d06b06264ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b92a06cb1b352156461d44b1d674d46') in 0.020616 seconds 
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_02.prefab
+  artifactKey: Guid(b78d6b40ec28ab14c8e78b500c541d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_02.prefab using Guid(b78d6b40ec28ab14c8e78b500c541d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547829164e8fd5e3e6b847488f7fb0d4') in 0.020654 seconds 
+  Import took 0.023374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_pillar_04.prefab
+  artifactKey: Guid(027629674a2d43e4085a541b1399b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_pillar_04.prefab using Guid(027629674a2d43e4085a541b1399b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6c75adde08a5de5fe032bb8a6fff1c') in 0.021588 seconds 
+  Import took 0.024379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_01.prefab
+  artifactKey: Guid(ffbb095f277e7c24594198c84b0f749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_01.prefab using Guid(ffbb095f277e7c24594198c84b0f749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3caf9e20cfe5521e29f147a5b7bb5c') in 0.020470 seconds 
+  Import took 0.023234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_05.prefab
+  artifactKey: Guid(a9845ec07c122574bb304ab34975e1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_05.prefab using Guid(a9845ec07c122574bb304ab34975e1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c491478774bd45d559a276a12e678e') in 0.020190 seconds 
+  Import took 0.023022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_03.prefab
+  artifactKey: Guid(691d34a66c8a7ac4d82c973460fcfe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_03.prefab using Guid(691d34a66c8a7ac4d82c973460fcfe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4f4a46d71bd4acc0d2248b76133f74') in 0.021766 seconds 
+  Import took 0.024354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_06.prefab
+  artifactKey: Guid(112cc90af5a3b694986a98ac6af800fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_06.prefab using Guid(112cc90af5a3b694986a98ac6af800fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76e05f699ca1a691fb8787d714cb086') in 0.022780 seconds 
+  Import took 0.025299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/cemetery halloween set/Prefab/bush_02.prefab
+  artifactKey: Guid(11656c9fe6039134697fe0c8b8f7883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/bush_02.prefab using Guid(11656c9fe6039134697fe0c8b8f7883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30cb336355b515bfdfcd6884962a518') in 0.022732 seconds 
+  Import took 0.025541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/prefab/enemy.prefab
+  artifactKey: Guid(d3ea29bba1ef74bf8aa7a836f1c2643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/enemy.prefab using Guid(d3ea29bba1ef74bf8aa7a836f1c2643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa423dcf81a53fd79b057f72e7e1efd5') in 0.009962 seconds 
+  Import took 0.011678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_02.prefab
+  artifactKey: Guid(3891be345248e044bb740e0efc180e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_02.prefab using Guid(3891be345248e044bb740e0efc180e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc9b7164a80d0824fd1575ec6763085') in 0.020361 seconds 
+  Import took 0.023341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_04.prefab
+  artifactKey: Guid(c9db9d90aba03fe468f68c0c7f75c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_04.prefab using Guid(c9db9d90aba03fe468f68c0c7f75c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04872da8ae71c081e17f38f55e728d78') in 0.021910 seconds 
+  Import took 0.024683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_08.prefab
+  artifactKey: Guid(824812786490c78489fd01f4351a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_08.prefab using Guid(824812786490c78489fd01f4351a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb0ce601e12be26c50314f9652ce56a') in 0.021325 seconds 
+  Import took 0.024223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_06.prefab
+  artifactKey: Guid(36dbc93ffe63a384195eac121fd3a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_06.prefab using Guid(36dbc93ffe63a384195eac121fd3a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fca2593dece0ab100684fbbcaa582b') in 0.021324 seconds 
+  Import took 0.024163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_04.prefab
+  artifactKey: Guid(7ae739358cd32f941acc066166d2ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_04.prefab using Guid(7ae739358cd32f941acc066166d2ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0de5563c01d1fb8ebb5eda1e5c0d03') in 0.023243 seconds 
+  Import took 0.026409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_02.prefab
+  artifactKey: Guid(dca726b35507ae4408bdd768c2516b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_02.prefab using Guid(dca726b35507ae4408bdd768c2516b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e29169a06020548efd9ed7bc1f80619') in 0.024778 seconds 
+  Import took 0.027548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_03.prefab
+  artifactKey: Guid(909d6213f93e4ae4abfc611dafaf5513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_03.prefab using Guid(909d6213f93e4ae4abfc611dafaf5513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06127c7f218822d744db3e50c01fffd') in 0.021365 seconds 
+  Import took 0.024376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_02.prefab
+  artifactKey: Guid(096024c93fe017b42bb3832df1701ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_02.prefab using Guid(096024c93fe017b42bb3832df1701ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415acf52eab5242b4e4da51fead08386') in 0.024591 seconds 
+  Import took 0.027497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_04.prefab
+  artifactKey: Guid(04251ac4cc9ef904e9b00646dd3b4bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_04.prefab using Guid(04251ac4cc9ef904e9b00646dd3b4bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a404a1834a015260e37a3ce612af7f5a') in 0.023036 seconds 
+  Import took 0.025793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_skull_01.prefab
+  artifactKey: Guid(62b8df686f4cf764e8a6811533f005ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_skull_01.prefab using Guid(62b8df686f4cf764e8a6811533f005ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7970b92c6b721006c0c521deac5772') in 0.022341 seconds 
+  Import took 0.025181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_06.prefab
+  artifactKey: Guid(503c5c360c6265f48bdfa88c8c90534e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_06.prefab using Guid(503c5c360c6265f48bdfa88c8c90534e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb6de47fd4228b481774135fca90ad0') in 0.020563 seconds 
+  Import took 0.023296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_02.prefab
+  artifactKey: Guid(c359d8121ce290d4fa23fd147d65a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_02.prefab using Guid(c359d8121ce290d4fa23fd147d65a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931fd1214893ca4c6ed81761f272bba9') in 0.022326 seconds 
+  Import took 0.024985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_04.prefab
+  artifactKey: Guid(80557bf8ce69dfd47a8955aacecbf12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_04.prefab using Guid(80557bf8ce69dfd47a8955aacecbf12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0165c28ff0c4ad05c99401b27cbad080') in 0.023456 seconds 
+  Import took 0.026132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_08.prefab
+  artifactKey: Guid(6bb9527a5c388ab4db52794b383d9c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_08.prefab using Guid(6bb9527a5c388ab4db52794b383d9c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969bce042c0dbef83d94137da653826e') in 0.021069 seconds 
+  Import took 0.023912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/cemetery halloween set/Prefab/bush_01.prefab
+  artifactKey: Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/bush_01.prefab using Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93af1568bd2916ed4ab10a3cdea6fcb6') in 0.021672 seconds 
+  Import took 0.024414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_09.prefab
+  artifactKey: Guid(00474b18ee4c2b645aef1d1232934c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_09.prefab using Guid(00474b18ee4c2b645aef1d1232934c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a6f0c96c2d72b8e0acac51e7615126') in 0.021145 seconds 
+  Import took 0.024014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_02.prefab
+  artifactKey: Guid(d3c60966aad888c4cb7b61efd3dd3885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_02.prefab using Guid(d3c60966aad888c4cb7b61efd3dd3885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458d391689bfdb7f2b89eb6b04793d3e') in 0.022612 seconds 
+  Import took 0.025219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_03.prefab
+  artifactKey: Guid(47bf5b06c3f82dc43a768d825858058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_03.prefab using Guid(47bf5b06c3f82dc43a768d825858058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff43a96cd0023a928f71d6df1df62ae1') in 0.022042 seconds 
+  Import took 0.024812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_06.prefab
+  artifactKey: Guid(94950aa7f0f9d274690502dd49b95930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_06.prefab using Guid(94950aa7f0f9d274690502dd49b95930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fdb015d03d856725a934686638f096') in 0.023598 seconds 
+  Import took 0.026281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_02.prefab
+  artifactKey: Guid(eb8425daf233f5f4bb6fccb2ce3e9199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_02.prefab using Guid(eb8425daf233f5f4bb6fccb2ce3e9199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98083944d031887744052e3a98d91f5') in 0.022221 seconds 
+  Import took 0.025029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_03.prefab
+  artifactKey: Guid(ebf119885166b7440b072472d5fbeecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_03.prefab using Guid(ebf119885166b7440b072472d5fbeecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983001aaabe3c8b77d62484ff2168901') in 0.020053 seconds 
+  Import took 0.022686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_09.prefab
+  artifactKey: Guid(028c322a623b4ed4db167ce368f5cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_09.prefab using Guid(028c322a623b4ed4db167ce368f5cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c402dc343fbf56b0ac50205bb00de350') in 0.020375 seconds 
+  Import took 0.023113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_07.prefab
+  artifactKey: Guid(9cb717c8378f7294b989570ede15c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_07.prefab using Guid(9cb717c8378f7294b989570ede15c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aa42e5d32111f4638f5414641ecf75') in 0.020505 seconds 
+  Import took 0.023318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_06.prefab
+  artifactKey: Guid(a71b38bbeb8013a4f82cdab66289cc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_06.prefab using Guid(a71b38bbeb8013a4f82cdab66289cc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ec9d91509de2d72ef8db514d19f4b4') in 0.020943 seconds 
+  Import took 0.023772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_01.prefab
+  artifactKey: Guid(d9b9d7f65e06eea4b9fb8e39bebc098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_01.prefab using Guid(d9b9d7f65e06eea4b9fb8e39bebc098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746392a14f6dff0701a93f30f6a5832e') in 0.021096 seconds 
+  Import took 0.024032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_02.prefab
+  artifactKey: Guid(841dea7c1af249d4eb71eab6d1f88285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_02.prefab using Guid(841dea7c1af249d4eb71eab6d1f88285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1348d590d872c97e64c3d6b31eb36e4') in 0.019947 seconds 
+  Import took 0.022785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_06.prefab
+  artifactKey: Guid(1df0c716b601a7048bfafa75c52cee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_06.prefab using Guid(1df0c716b601a7048bfafa75c52cee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed974beab6cf5391ad102017c25504cc') in 0.022888 seconds 
+  Import took 0.025566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_05.prefab
+  artifactKey: Guid(45dbd24af5f29ff4e9dd35279d2249a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_05.prefab using Guid(45dbd24af5f29ff4e9dd35279d2249a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae42ca39d5f3ebdab0734b8926e1f49') in 0.020284 seconds 
+  Import took 0.023151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_pillar_01.prefab
+  artifactKey: Guid(04ad0ea2c477f3642983f0577b89a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_pillar_01.prefab using Guid(04ad0ea2c477f3642983f0577b89a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e375f20ef4c45c9793ff3e5ff8a6ae8') in 0.020237 seconds 
+  Import took 0.023009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_14.prefab
+  artifactKey: Guid(19cca9c1a44f9284495fabdf095acb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_14.prefab using Guid(19cca9c1a44f9284495fabdf095acb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d94c4c2aed802bd40d5d01c93d639a7') in 0.020933 seconds 
+  Import took 0.024019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_06.prefab
+  artifactKey: Guid(4c904a7b752d6ca40a9a12c8bc49a106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_06.prefab using Guid(4c904a7b752d6ca40a9a12c8bc49a106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1059e7ad5498ada816eec21e124a1d') in 0.021367 seconds 
+  Import took 0.024323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_06.prefab
+  artifactKey: Guid(0027e2b9403ea2f45b095595d06bf954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_06.prefab using Guid(0027e2b9403ea2f45b095595d06bf954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de552adf392c156b444ce13dc2eee721') in 0.026097 seconds 
+  Import took 0.028741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_08.prefab
+  artifactKey: Guid(0376a16bf199eb04fba2e6f2a8739ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_08.prefab using Guid(0376a16bf199eb04fba2e6f2a8739ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b83fb09514dd36cde60d1341f32d23') in 0.019912 seconds 
+  Import took 0.022700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/gate_01.prefab
+  artifactKey: Guid(91d8c8bf5150b734990a9c8c39f3ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/gate_01.prefab using Guid(91d8c8bf5150b734990a9c8c39f3ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3ff11dee45715dfbc0d25e90223c9b') in 0.022091 seconds 
+  Import took 0.024980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_05.prefab
+  artifactKey: Guid(b40ae86e85791564882257a22c79b4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_05.prefab using Guid(b40ae86e85791564882257a22c79b4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee39b6813e71ca7f9fc6e541fcbd9d0') in 0.020855 seconds 
+  Import took 0.023622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_01.prefab
+  artifactKey: Guid(665d6ab27366b2b4e99a5ccc4523af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_01.prefab using Guid(665d6ab27366b2b4e99a5ccc4523af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf32737e9e65547d5d23fb8bef177194') in 0.021184 seconds 
+  Import took 0.023747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_03.prefab
+  artifactKey: Guid(9e883b6e7e36db048b286ea954b59dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_03.prefab using Guid(9e883b6e7e36db048b286ea954b59dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dce49e948619bef7d1de3a9bd6ad79') in 0.020379 seconds 
+  Import took 0.023274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/prefab/Room.prefab
+  artifactKey: Guid(241502af2359a4713911149796292b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Room.prefab using Guid(241502af2359a4713911149796292b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3fe5fde61f3093e2c65be2ccd63902') in 0.008636 seconds 
+  Import took 0.010475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_01.prefab
+  artifactKey: Guid(62c53ccdf1ee5404bb1356b626706342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_01.prefab using Guid(62c53ccdf1ee5404bb1356b626706342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62e5093fd67bc19e02c53e70f5679b1') in 0.020667 seconds 
+  Import took 0.023421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_03.prefab
+  artifactKey: Guid(baa878f50f65b4f48ac29f443ea4111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_03.prefab using Guid(baa878f50f65b4f48ac29f443ea4111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2225555543f6dff364615150a90dca') in 0.022200 seconds 
+  Import took 0.024919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_01.prefab
+  artifactKey: Guid(883c23b069c720d4694d86593d27b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_01.prefab using Guid(883c23b069c720d4694d86593d27b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92aa4be37440f9185d73197cd219b8df') in 0.020446 seconds 
+  Import took 0.023381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_09.prefab
+  artifactKey: Guid(0e2d286a71be2fd4188c6fd4491c245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_09.prefab using Guid(0e2d286a71be2fd4188c6fd4491c245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74e074af0b134b827d4a880f9389249') in 0.019930 seconds 
+  Import took 0.022765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_02.prefab
+  artifactKey: Guid(7f76e4513eff39d4fb3031a1beace14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_02.prefab using Guid(7f76e4513eff39d4fb3031a1beace14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2242e17dde5548d63a04944711a9bc4a') in 0.020242 seconds 
+  Import took 0.022824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_10.prefab
+  artifactKey: Guid(a5cc8d561f807744c989a5da391cb2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_10.prefab using Guid(a5cc8d561f807744c989a5da391cb2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb17a1b16ab01142edaa4eac2a3ad21') in 0.020549 seconds 
+  Import took 0.023558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_12.prefab
+  artifactKey: Guid(3b6669518fcce194991ed5f8f079d647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_12.prefab using Guid(3b6669518fcce194991ed5f8f079d647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6833aa6e3bda993a8ee1d247af0bebb') in 0.020769 seconds 
+  Import took 0.023918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_03.prefab
+  artifactKey: Guid(bbfa58e5f965fc04a9c67a0b394d41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_03.prefab using Guid(bbfa58e5f965fc04a9c67a0b394d41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c995f697a81a4c2b5d0fff06277a8d7') in 0.021805 seconds 
+  Import took 0.024675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_03.prefab
+  artifactKey: Guid(d57e1e04edc21874e83182ac2c199e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_spokebone_03.prefab using Guid(d57e1e04edc21874e83182ac2c199e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b760e841bb1c14ba3775d7e1806dc172') in 0.021929 seconds 
+  Import took 0.025022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_01.prefab
+  artifactKey: Guid(82b2054d2bd318c4e8c7b06e163cba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_01.prefab using Guid(82b2054d2bd318c4e8c7b06e163cba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c60edc1061ebdf4d5688d714e7036a') in 0.019641 seconds 
+  Import took 0.022575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_04.prefab
+  artifactKey: Guid(2facbd87c0c9c9b4aaa9057db5b88684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_pumpkin_04.prefab using Guid(2facbd87c0c9c9b4aaa9057db5b88684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b6183cfb8bd4f1c2b7906c11d72df4') in 0.021592 seconds 
+  Import took 0.024620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_rock_06.prefab
+  artifactKey: Guid(0808e633d398e0e4d86e0d031ab6bec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_rock_06.prefab using Guid(0808e633d398e0e4d86e0d031ab6bec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fad3fe864c30e4e07a3f3bb4a1031d') in 0.021214 seconds 
+  Import took 0.024204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.309002 seconds.
+  path: Assets/prefab/wall.prefab
+  artifactKey: Guid(1e425f646ca5a427e9c8220c966c526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/wall.prefab using Guid(1e425f646ca5a427e9c8220c966c526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39ee1f97f67f15a021e4394779045cb') in 0.006672 seconds 
+  Import took 0.008739 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 2.319700 ms (FindLiveObjects: 0.119300 ms CreateObjectMapping: 0.039600 ms MarkObjects: 2.148100 ms  DeleteObjects: 0.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.435382 seconds.
+  path: Assets/scripts/CORE.cs
+  artifactKey: Guid(94cad1a27773e4d5db900c1f8f9f4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/CORE.cs using Guid(94cad1a27773e4d5db900c1f8f9f4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d538f044685aa8a8eb17d9815bc6401') in 0.005820 seconds 
+  Import took 0.007730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.474957 seconds.
+  path: Assets/scripts/Player.cs
+  artifactKey: Guid(7b14312a2b74e46e090d35d25dcd744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player.cs using Guid(7b14312a2b74e46e090d35d25dcd744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a75b5e992454399a1abb08374a7335') in 0.004089 seconds 
+  Import took 0.005919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.015375 seconds.
+  path: Assets/scripts/playerScript.cs
+  artifactKey: Guid(d0b77227cde1a44a5b63d52015b1d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/playerScript.cs using Guid(d0b77227cde1a44a5b63d52015b1d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ddaefc9cff0d3338aa1fc05dbc4669') in 0.004174 seconds 
+  Import took 0.006391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.254418 seconds.
+  path: Assets/scripts/roomScript.cs
+  artifactKey: Guid(6cdeb41903825404180cd826c67a5ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/roomScript.cs using Guid(6cdeb41903825404180cd826c67a5ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829e9abce8139de987ad645f80cc54da') in 0.003929 seconds 
+  Import took 0.006086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.213895 seconds.
+  path: Assets/scripts/roomTriggerScript.cs
+  artifactKey: Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/roomTriggerScript.cs using Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e998a513adea608f8e42df595c570b33') in 0.003586 seconds 
+  Import took 0.005577 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000899 seconds.
+Registered in 0.001321 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Repos\CSC250_Spring2022_Unity_Example\My project (1)\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:49:00.042 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e53090 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.571 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (572ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (300ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 1.960200 ms (FindLiveObjects: 0.109900 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.795600 ms  DeleteObjects: 0.012300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repos\CSC250_Spring2022_Unity_Example\My project (1)\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (472ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.2 MB.
-System memory in use after: 198.3 MB.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2015.
-Total: 2.391100 ms (FindLiveObjects: 0.181026 ms CreateObjectMapping: 0.036047 ms MarkObjects: 2.158692 ms  DeleteObjects: 0.014733 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 2.069600 ms (FindLiveObjects: 0.114400 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.895500 ms  DeleteObjects: 0.018800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 220.501411 seconds.
-  path: Assets/Mini Legion Footman PBR HP Polyart/Animations/Footman_Attack01.fbx
-  artifactKey: Guid(589612087af5a1d4b9dc9f35c6390cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini Legion Footman PBR HP Polyart/Animations/Footman_Attack01.fbx using Guid(589612087af5a1d4b9dc9f35c6390cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a9e0403114384b561a1a417b336173') in 0.373183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.052632 seconds.
-  path: Assets/Mini Legion Footman PBR HP Polyart/Animations/Footman_GetHit.fbx
-  artifactKey: Guid(2d692e106dad285448e3dd45e5a3a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini Legion Footman PBR HP Polyart/Animations/Footman_GetHit.fbx using Guid(2d692e106dad285448e3dd45e5a3a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e392f52722696d91fc246bc27ffb376') in 0.020285 seconds 
+  Time since last request: 705.685740 seconds.
+  path: Assets/scripts/roomTriggerScript.cs
+  artifactKey: Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/roomTriggerScript.cs using Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f27ffe1d370fb9a8877d541a4607a7') in 0.003371 seconds 
+  Import took 0.004969 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001150 seconds.
+Registered in 0.001298 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Repos\CSC250_Spring2022_Unity_Example\My project (1)\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:50:36.418 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e6f4f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  1.269 seconds
+- Completed reload, in  0.591 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1269ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (592ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1083ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (473ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (407ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.3 MB.
-System memory in use after: 203.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2022.
-Total: 3.385721 ms (FindLiveObjects: 0.142259 ms CreateObjectMapping: 0.048735 ms MarkObjects: 3.156648 ms  DeleteObjects: 0.036857 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000995 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:50:53.731 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e49960 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1123ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (958ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (349ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (356ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.5 MB.
-System memory in use after: 203.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 2.957252 ms (FindLiveObjects: 0.113691 ms CreateObjectMapping: 0.041400 ms MarkObjects: 2.782152 ms  DeleteObjects: 0.019158 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 264.189634 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad0dc846304f6d903e4ea51c189d61b') in 0.005187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 90.815127 seconds.
-  path: Assets/scripts/CORE.cs
-  artifactKey: Guid(94cad1a27773e4d5db900c1f8f9f4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/CORE.cs using Guid(94cad1a27773e4d5db900c1f8f9f4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc5bcd63ef4118c92e9d2c701ebf88a') in 0.346680 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001606 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:56:26.964 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e57bf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1320ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1137ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (508ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (368ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (189ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 207.8 MB.
-System memory in use after: 207.9 MB.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2028.
-Total: 2.674669 ms (FindLiveObjects: 0.118791 ms CreateObjectMapping: 0.050320 ms MarkObjects: 2.484428 ms  DeleteObjects: 0.020270 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1979.
+Total: 1.905900 ms (FindLiveObjects: 0.094200 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.765100 ms  DeleteObjects: 0.013900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 80.368197 seconds.
-  path: Assets/scripts/CORE.cs
-  artifactKey: Guid(94cad1a27773e4d5db900c1f8f9f4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/CORE.cs using Guid(94cad1a27773e4d5db900c1f8f9f4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8352a8c34c9c71965b9e6836cbd0f60') in 0.004932 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001100 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 09:56:31.806 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e2ce70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1107ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (943ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (353ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 207.9 MB.
-System memory in use after: 208.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2031.
-Total: 3.287159 ms (FindLiveObjects: 0.112475 ms CreateObjectMapping: 0.043262 ms MarkObjects: 3.106446 ms  DeleteObjects: 0.024152 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 155.564245 seconds.
-  path: Assets/prefab/wall.prefab
-  artifactKey: Guid(1e425f646ca5a427e9c8220c966c526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/wall.prefab using Guid(1e425f646ca5a427e9c8220c966c526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e025c9fd021d3bd6ec604eba4b1e0d5') in 0.108463 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001047 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to find Tools for Unity bridge dll for Visual Studio for Mac /Applications/Visual Studio.app
-2022-04-13 10:01:23.502 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e34770 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (891ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 207.4 MB.
-System memory in use after: 207.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2036.
-Total: 3.238883 ms (FindLiveObjects: 0.117345 ms CreateObjectMapping: 0.041841 ms MarkObjects: 3.051143 ms  DeleteObjects: 0.027831 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001086 seconds.
+Registered in 0.001231 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Repos\CSC250_Spring2022_Unity_Example\My project (1)\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:08:01.371 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e35880 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  1.075 seconds
+- Completed reload, in  0.621 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1076ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (621ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.2 MB.
-System memory in use after: 208.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2039.
-Total: 2.854939 ms (FindLiveObjects: 0.128694 ms CreateObjectMapping: 0.047827 ms MarkObjects: 2.655804 ms  DeleteObjects: 0.021703 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001070 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:11:53.954 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e345b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1059ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (900ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (335ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.4 MB.
-System memory in use after: 208.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2042.
-Total: 2.661082 ms (FindLiveObjects: 0.107431 ms CreateObjectMapping: 0.041378 ms MarkObjects: 2.493078 ms  DeleteObjects: 0.018524 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001100 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:15:48.258 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e75180 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1105ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (941ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (355ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 208.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2045.
-Total: 2.746388 ms (FindLiveObjects: 0.113809 ms CreateObjectMapping: 0.041721 ms MarkObjects: 2.569353 ms  DeleteObjects: 0.020538 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001070 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:15:52.721 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e3d810 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1043ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (888ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (335ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.7 MB.
-System memory in use after: 208.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2048.
-Total: 2.612796 ms (FindLiveObjects: 0.111644 ms CreateObjectMapping: 0.049077 ms MarkObjects: 2.434050 ms  DeleteObjects: 0.017352 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001097 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:19:27.763 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e76840 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.118 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1119ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (938ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (351ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.9 MB.
-System memory in use after: 209.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2051.
-Total: 2.671412 ms (FindLiveObjects: 0.150092 ms CreateObjectMapping: 0.051837 ms MarkObjects: 2.449848 ms  DeleteObjects: 0.018801 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000986 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:22:50.711 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e4a4c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1057ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (337ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.1 MB.
-System memory in use after: 209.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2054.
-Total: 2.761187 ms (FindLiveObjects: 0.118170 ms CreateObjectMapping: 0.045509 ms MarkObjects: 2.576195 ms  DeleteObjects: 0.020566 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001104 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:24:45.000 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e5fe20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (924ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (356ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.2 MB.
-System memory in use after: 209.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2057.
-Total: 2.561648 ms (FindLiveObjects: 0.110237 ms CreateObjectMapping: 0.038659 ms MarkObjects: 2.394001 ms  DeleteObjects: 0.018121 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001094 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:24:47.889 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e7dce0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (919ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (343ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.4 MB.
-System memory in use after: 209.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2060.
-Total: 2.678994 ms (FindLiveObjects: 0.123856 ms CreateObjectMapping: 0.043920 ms MarkObjects: 2.491721 ms  DeleteObjects: 0.018720 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001047 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:26:40.934 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e6fd40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1122ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (957ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (350ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.5 MB.
-System memory in use after: 209.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2063.
-Total: 2.797567 ms (FindLiveObjects: 0.116806 ms CreateObjectMapping: 0.042778 ms MarkObjects: 2.618895 ms  DeleteObjects: 0.018323 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001096 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:26:43.610 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e57640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1087ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (925ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (493ms)
 			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.7 MB.
-System memory in use after: 209.8 MB.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2066.
-Total: 2.608641 ms (FindLiveObjects: 0.112207 ms CreateObjectMapping: 0.040408 ms MarkObjects: 2.437067 ms  DeleteObjects: 0.018213 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 1.975600 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.813800 ms  DeleteObjects: 0.013000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.818879 seconds.
+  path: Assets/scripts/roomTriggerScript.cs
+  artifactKey: Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/roomTriggerScript.cs using Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b81aad6e8117918ff218f5e339e5a9') in 0.003117 seconds 
+  Import took 0.004736 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001463 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repos\CSC250_Spring2022_Unity_Example\My project (1)\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 1.887500 ms (FindLiveObjects: 0.110100 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.726500 ms  DeleteObjects: 0.012900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001346 seconds.
+Registered in 0.001302 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/awesomefat/Downloads/repos/CSC250_Spring2022_Unity_Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Repos\CSC250_Spring2022_Unity_Example\My project (1)\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-13 10:27:56.505 Unity[4985:59828] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e55ab0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  0.593 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1098ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (931ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (478ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (183ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.9 MB.
-System memory in use after: 210.0 MB.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2069.
-Total: 2.842287 ms (FindLiveObjects: 0.118967 ms CreateObjectMapping: 0.041073 ms MarkObjects: 2.660302 ms  DeleteObjects: 0.021091 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 1.847200 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.692500 ms  DeleteObjects: 0.013400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1866.797335 seconds.
-  path: Assets/scripts/boxScript.cs
-  artifactKey: Guid(820ef913703c54f0387a758b805b3aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/boxScript.cs using Guid(820ef913703c54f0387a758b805b3aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b4f5cba77e2db945659873d1425edc') in 0.003967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.247405 seconds.
-  path: Assets/scripts/boxScript.cs
-  artifactKey: Guid(820ef913703c54f0387a758b805b3aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/boxScript.cs using Guid(820ef913703c54f0387a758b805b3aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b83875af1bfd081718e797f463b8b1') in 0.001512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.102371 seconds.
-  path: Assets/scripts/secondPlayerScript.cs
-  artifactKey: Guid(69f32a484922f4279b368cf4eedf831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/secondPlayerScript.cs using Guid(69f32a484922f4279b368cf4eedf831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c6a09bba2dff006a3cc226d85ecc4') in 0.001342 seconds 
+  Time since last request: 123.336080 seconds.
+  path: Assets/scripts/roomTriggerScript.cs
+  artifactKey: Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/roomTriggerScript.cs using Guid(e0bda32a1cdc448d4a6538813f113b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c9976f5cceea40abadcf6a9f63c3a9') in 0.003557 seconds 
+  Import took 0.005605 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

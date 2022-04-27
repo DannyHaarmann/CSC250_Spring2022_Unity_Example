@@ -7,21 +7,26 @@ public class CORE : MonoBehaviour
     public Transform enemyPrefab;
     public Transform spawnPoint;
 
-    private static List<GameObject> theRoomsGos = new List<GameObject>();
+    public static List<GameObject> theRoomsGos = new List<GameObject>();
     private static List<Room> theRooms = new List<Room>();
     private static Player currentPlayer = null;
     private static Enemy currentEnemy = null;
+    private static int destroyCount = 0;
 
-    public static GameObject getRoom()
+
+    public static GameObject destroyRoom()
     {
-        return CORE.theRoomsGos[0];
+        return CORE.theRoomsGos[destroyCount];
     }
-
+    
     public static void setEnemy(Enemy e)
     {
         CORE.currentEnemy = e;
     }
-
+    public static void setDestroyCount(int x)
+    {
+        destroyCount = x;
+    }
     public static Enemy getEnemy()
     {
         return CORE.currentEnemy;
